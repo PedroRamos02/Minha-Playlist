@@ -1,0 +1,134 @@
+:root {
+
+    --preto-ext: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+    --preto-int: linear-gradient(to right, #434343 0%, black 100%);
+    --laranja: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    --laranja-2: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    --roxo: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    --roxo-2: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+    --amarelo: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    --vermelho: linear-gradient(to bottom right,#be4f4f, #2c1313);
+    --verde: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+
+    --fonte-primaria: 'Michroma', sans-serif;
+    --fonte-secundaria: 'Play', sans-serif;
+}
+
+.corpo__ext {
+    background: var(--preto-ext);
+    background-repeat: no-repeat;
+}
+
+.corpo__int {
+    background: var(--preto-int);
+    margin: 3em;
+    border-radius: 70px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+.cabecalho__info {
+    margin-left: 7em;
+}
+
+.titulo__principal {
+    font-family: var(--fonte-primaria);
+    margin-bottom: 1.5em;
+}
+
+.cabecalho__texto {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    text-align: center;
+    margin: 0 2em 4em 0;
+}
+
+.artista {
+    display: flex;
+    align-items: center;
+    padding: 2em 1em 0 1em;
+}
+
+
+
+.nome__artista {
+    font-family: var(--fonte-primaria);
+    font-size: 50px;
+    margin: 2em 2.5em
+}
+
+.botao {
+    border-radius: 100px;
+    background: var(--laranja-2);
+    color: var(--preto-ext);
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    padding: 0.5em;
+    margin: 0 5em 3em 5em;
+    text-align: center;
+}
+
+.botao__musica {
+    text-decoration: none;
+    color: var(--preto-int);
+}
+
+.kanye {
+    background: var(--laranja);
+}
+
+.travis {
+    background: var(--roxo);
+}
+
+.botao__travis {
+    background: var(--roxo-2);
+}
+
+.greenday {
+    background: var(--amarelo);
+}
+
+.img__greenday {
+    height: 600px;
+    margin-right: 19em;
+}
+
+
+.botao__greenday {
+    background: var(--amarelo);
+}
+
+.botao__slipknot {
+    background: var(--vermelho);
+}
+
+.slipknot{
+    background: var(--vermelho);
+    height: 600px;
+}
+
+.img__slipknot {
+    margin-right: 30em;
+    height: 565px;
+}
+
+.botao__alt-j {
+    background: var(--verde);
+}
+
+.img__alt-j {
+    margin: 2em 1em 2em 18em;
+}
+
+.alt-j {
+    background: var(--verde);
+    height: 600px;
+}
